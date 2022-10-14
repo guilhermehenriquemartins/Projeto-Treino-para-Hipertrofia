@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Principal';
+    src: url('fonts/Capture\ it.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --tituloprincipal: 'Principal', sans-serif;
+    --paragrafo: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(78, 78, 78), rgb(0, 0, 0));
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font: 2.5em var(--tituloprincipal);
+    padding: 20px;
+    text-align: center;
+    color: yellow;
+}
+
+#destaque {
+    background-color: yellow;
+    color: black;
+    padding: 0px 10px;
+}
+
+header p {
+    font: normal 400 1em var(--paragrafo);
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 20px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    background-color: yellow;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: -4px;
+    font: normal 500 1em var(--paragrafo);
+    width: 15vh;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a:active {
+    background-color: black;
+    color: yellow;
+    transition-duration: 0s;
+}
+
+#inicio {
+    border-top-left-radius: 30px;
+}
+
+#fim {
+    border-top-right-radius: 30px;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    max-width: 1000px;
+    min-width: 250px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.texto {
+    font: normal 700 1.2em var(--paragrafo);
+    color: rgb(23, 23, 23);
+    text-transform: uppercase;
+    padding: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font: italic 300 .9em var(--paragrafo);
+}
+
+.imagem {
+    background-color: black;
+    padding: 200px;
+}
+
+#costas {
+    background: black url('imagens/costas.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+
+#biceps {
+    background: black url('imagens/Biceps.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+
+#perna {
+    background: black url('imagens/pernas.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#peito {
+    background: black url('imagens/peito.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#geral {
+    background: black url('imagens/costas\ e\ biceps.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
