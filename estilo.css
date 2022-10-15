@@ -117,26 +117,170 @@ footer {
 }
 
 #costas {
-    background: black url('imagens/costas.jpg') top center no-repeat fixed;
+    position: relative;
+    background: black url('imagens/costas 2.jpg') top center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0px 0px 30px 5px rgb(0, 0, 0);
+}
+
+#costas p {
+    position: absolute;
+    color: yellow;
+    font: normal 800 4em var(--paragrafo);
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.30);
+    width: 100%;
+    line-height: 100px;
+    padding: 150px 0px;
+    left: 0px;
+    top: 0px;
+}
+
+#costas:hover > p {
+    background-color: rgba(255, 255, 0, 0.70);
+    color: black;
+    font-size: 5em;
+    transition-duration: 0.5s;
+}
+
+#costas:active > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.70);
+    font-size: 3em;
+    transition-duration: 0.1s;
 }
 
 #biceps {
-    background: black url('imagens/Biceps.jpg') top center no-repeat fixed;
+    position: relative;
+    background: black url('imagens/Biceps 2.jpg') top center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0px 0px 30px 5px black;
+}
+
+#biceps p {
+    position: absolute;
+    color: yellow;
+    font: normal 800 3em var(--paragrafo);
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    line-height: 100px;
+    padding: 150px 0px;
+    top: 0px;
+    left: 0px;
+}
+
+#biceps:hover > p {
+    background-color: rgba(255, 255, 0, 0.70);
+    color: black;
+    font-size: 3.3em;
+    transition-duration: 0.5s;
+}
+
+#biceps:active > p {
+    background-color: rgba(0, 0, 0, 0.70);
+    color: white;
+    font-size: 2em;
+    transition-duration: 0.1s;
 }
 
 #perna {
-    background: black url('imagens/pernas.jpg') center center no-repeat fixed;
+    position: relative;
+    background: black url('imagens/pernas 2.jpg') center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0px 0px 30px 5px black;
+}
+
+#perna p {
+    position: absolute;
+    color: yellow;
+    font: normal 800 2.8em var(--paragrafo);
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.50);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    line-height: 100px;
+    padding: 150px 0px;
+}
+
+#perna:hover > p {
+    background-color: rgba(255, 255, 0, 0.70);
+    color: black;
+    font-size: 3em;
+    transition-duration: 0.5s;
+}
+
+#perna:active > p {
+    background-color: rgba(0, 0, 0, 0.70);
+    color: white;
+    font-size: 2.5em;
+    transition-duration: 0.1s;
 }
 
 #peito {
-    background: black url('imagens/peito.jpg') center center no-repeat fixed;
+    position: relative;
+    background: black url('imagens/peito 2.jpg') center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0px 0px 30px 5px black;
+}
+
+#peito p {
+    position: absolute;
+    color: yellow;
+    font: normal 800 3em var(--paragrafo);
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.50);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    line-height: 100px;
+    padding: 150px 0px;
+}
+
+#peito:hover > p {
+    background-color: rgba(255, 255, 0, 0.60);
+    color: black;
+    font-size: 4em;
+    transition-duration: 0.5s;
+}
+
+#peito:active > p {
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    font-size: 2em;
+    transition-duration: 0.1s;
 }
 
 #geral {
-    background: black url('imagens/costas\ e\ biceps.jpg') top center no-repeat fixed;
+    position: relative;
+    background: black url('imagens/costas\ e\ biceps 2.jpg') top center no-repeat fixed;
     background-size: cover;
+}
+
+#geral p {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+    color: yellow;
+    font: normal 800 2.7em var(--paragrafo);
+    text-transform: uppercase;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    line-height: 100px;
+    padding: 150px 0px;
+}
+
+#geral:hover > p {
+    background-color: rgba(255, 255, 0, 0.70);
+    color: black;
+    font-size: 3em;
+    transition-duration: 0.5s;
+}
+
+#geral:active > p {
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    font-size: 2.3em;
+    transition-duration: 0.1s;
 }
