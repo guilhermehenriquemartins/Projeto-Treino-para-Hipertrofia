@@ -54,7 +54,7 @@ nav {
     text-align: center;
 }
 
-a {
+.menu {
     display: inline-block;
     background-color: yellow;
     padding: 15px 20px;
@@ -65,13 +65,13 @@ a {
     width: 15vh;
 }
 
-a:hover {
+.menu:hover {
     background-color: white;
     color: black;
     transition-duration: 0.5s;
 }
 
-a:active {
+.menu:active {
     background-color: black;
     color: yellow;
     transition-duration: 0s;
@@ -283,4 +283,9 @@ footer {
     color: white;
     font-size: 2.3em;
     transition-duration: 0.1s;
+}
+
+#bloco {
+    text-decoration: none;
+    width: 100%;
 }
