@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fonte1: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background: black url('imagens/costas\ 2.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+
+header h1 {
+    font: normal 800 2em var(--fonte1);
+    color: yellow;
+    padding: 50px;
+    background-image: linear-gradient(to bottom, black
+    , transparent);
+}
+
+main {
+    position: relative;
+    background-color: yellow;
+    width: 80vw;
+    height: 350px;
+    margin: auto;
+}
+
+main > iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    margin-top: 53px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer h2 {
+    font: normal 700 1.5em var(--fonte1);
+    text-transform: uppercase;
+    color: yellow;
+}
+
+div {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 30px 40px;
+    margin: 5px;
+}
+
+div > p {
+    font: normal 600 1em var(--fonte1);
+}
+
+div:hover {
+    outline: solid 5px yellow;
+    transition-duration: 0.2s;
+}
+
+div:active {
+    outline: solid 0px white;
+    background-color: white;
+    color: black;
+    transition-duration: 0s;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 10vh;
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+span > p {
+    color: transparent;
+    margin-top: 10px;
+    font: normal 300 1.5em var(--fonte1);
+}
+
+span:hover > p {
+    color: white;
+    transition-duration: 5s;
+}
+
+img:hover {
+    background-color: black;
+    outline: solid 10px black;
+    transition-duration: 0.3s;
+}
+
+#tabela > h2 {
+    background-color: orangered;
+    color: white;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    font: normal 500 1.1em var(--fonte1);
+    padding: 7px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#lista_tabela {
+    background-color: yellow;
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+li {
+    font: normal 500 .9em var(--fonte1);
+    line-height: 30px;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 20px;
+}
