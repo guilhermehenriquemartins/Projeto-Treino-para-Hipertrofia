@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fonte1: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background: black url('imagens/biceps\ 2.jpg') top center no-repeat fixed;
+    background-size: cover;
+}
+
+header h1 {
+    color: yellow;
+    font: normal 800 2em var(--fonte1);
+    padding: 50px 0px;
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+
+main {
+    position: relative;
+    background-color: yellow;
+    width: 80vw;
+    height: 350px;
+    margin: auto;
+}
+
+main > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img {
+    width: 10vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+img:hover {
+    background-color: black;
+    outline: solid 10px black;
+    transition-duration: 0.3s;
+}
+
+span p {
+    margin-bottom: 50px;
+    color: transparent;
+    font: normal 300 1.5em var(--fonte1);
+}
+
+span:hover p {
+    color: white;
+    transition-duration: 5s;
+}
+
+#tabela > h2 {
+    background-color: orangered;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    font: normal 500 1.1em var(--fonte1);
+    padding: 7px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside {
+    background-color: yellow;
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+li {
+    font: normal 500 .9em var(--fonte1);
+    line-height: 30px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+footer > h2 {
+    color: yellow;
+    font: normal 700 1.5em var(--fonte1);
+    text-transform: uppercase;
+}
+
+#botoes {
+    margin-top: 20px;
+}
+
+div {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    width: 30vw;
+    margin: 5px;
+    padding: 30px 5px;
+}
+
+div > p {
+    font: normal 600 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+div:hover {
+    outline: solid 5px yellow;
+    transition-duration: 0.2s;
+}
+
+div:active {
+    outline: solid 0px white;
+    background-color: white;
+    transition-duration: 0s;
+}
+
+a {
+    text-decoration: none;
+}
