@@ -21,25 +21,23 @@ header > h1 {
     font: normal 800 2em var(--fonte1);
     color: yellow;
     padding: 50px 0px;
-}
-
-header {
     background-image: linear-gradient(to bottom, black, transparent);
 }
 
-hr {
+#cima {
     width: 60vw;
     margin: auto;
-    background-image: radial-gradient(circle, white, transparent);
-    border: 1px solid transparent;
-}
-
-#cima {
     margin-bottom: 50px;
+    background-image: radial-gradient(circle, white, transparent);
+    border-color: transparent;
 }
 
 #baixo {
+    width: 60vw;
+    margin: auto;
     margin-top: 50px;
+    background-image: radial-gradient(circle, white, transparent);
+    border-color: transparent;
 }
 
 main {
@@ -80,21 +78,21 @@ img:hover {
 
 #voltar:hover p {
     color: white;
-    transition-duration: 5s;
+    transition-duration: 3s;
 }
 
-section > h2 {
+#tabela > h2 {
     background-color: orangered;
     width: 80vw;
     margin: auto;
-    color: white;
     font: normal 500 1.1em var(--fonte1);
+    color: white;
     padding: 7px 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-#lista {
+#lista_tabela {
     background-color: yellow;
     width: 80vw;
     margin: auto;
@@ -115,13 +113,17 @@ li {
 footer {
     background-color: black;
     margin-top: 50px;
-    padding: 50px 0px;
+    padding: 50px 0px 20px 0px;
 }
 
-footer h2 {
+footer > h2 {
     color: yellow;
     font: normal 700 1.5em var(--fonte1);
     text-transform: uppercase;
+}
+
+#botoes {
+    margin-top: 20px;
 }
 
 div {
@@ -130,25 +132,37 @@ div {
     color: black;
     width: 30vw;
     margin: 5px;
+    font: normal 600 1em var(--fonte1);
+    text-transform: uppercase;
     padding: 30px 5px;
 }
 
-article {
-    margin-top: 20px;
+div:hover {
+    outline: solid 5px yellow;
+    transition-duration: 0.2s;
 }
 
-div > p {
-    font: normal 600 1em var(--fonte1);
-    text-transform: uppercase;
+div:active {
+    outline: solid 0px white;
+    background-color: white;
+    transition-duration: 0s;
 }
 
-#meu_endereco > p {
-    color: white;
-    font: normal 300 1em var(--fonte1);
+a {
+    text-decoration: none;
 }
 
 #meu_endereco {
-    margin-top: 80px;
+    margin-top: 50px;
+    color: white;
+}
+
+#meu_endereco p {
+    font: normal 300 1em var(--fonte1);
+}
+
+#meu_endereco > p {
+    margin-bottom: 20px;
 }
 
 #linkedin {
@@ -172,22 +186,17 @@ div > p {
     transition-duration: 0.1s;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+#linkedin:active {
+    outline: solid 0px #004081;
+    background-color: #004081;
+    transition-duration: 0.1s;
 }
 
-#meu_endereco > p {
-    margin-bottom: 20px;
-}
-
-div:hover {
-    outline: solid 5px yellow;
-    transition-duration: 0.2s;
-}
-
-div:active {
+#github:active {
     outline: solid 0px white;
-    background-color: white;
-    transition-duration: 0s;
+    transition-duration: 0.1s;
+}
+
+#meu_endereco a {
+    color: white;
 }
