@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fonte1: 'Montserrat', sans-serif;
+}
+
+* {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black url('imagens/biceps\ 2.jpg') center top no-repeat fixed;
+    background-size: cover;
+}
+
+header > h1 {
+    color: yellow;
+    font: normal 800 2em var(--fonte1);
+    padding: 50px 0px;
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+
+#cima {
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 50px;
+    background-image: radial-gradient(circle, white, transparent);
+    border: 1px solid transparent;
+}
+
+#baixo {
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+    background-image: radial-gradient(circle, white, transparent);
+    border: 1px solid transparent;
+}
+
+main {
+    position: relative;
+    background-color: yellow;
+    width: 80vw;
+    height: 350px;
+    margin: auto;
+}
+
+main > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img {
+    width: 10vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+span p {
+    color: transparent;
+    font: normal 300 1.5em var(--fonte1);
+    margin-bottom: 50px;
+}
+
+img:hover {
+    background-color: black;
+    outline: solid 10px black;
+    transition-duration: 0.3s;
+}
+
+span:hover p {
+    color: white;
+    transition-duration: 3s;
+}
+
+#tabela > h2 {
+    background-color: orangered;
+    color: white;
+    font: normal 500 1.1em var(--fonte1);
+    width: 80vw;
+    margin: auto;
+    padding: 7px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#tabela_lista {
+    background-color: yellow;
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+li {
+    text-align: justify;
+    margin-left: 20px;
+    font: normal 500 .9em var(--fonte1);
+    line-height: 30px;
+}
