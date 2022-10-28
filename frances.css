@@ -25,27 +25,19 @@ header > h1 {
 }
 
 #cima {
-    width: 60vw;
     margin: auto;
     margin-bottom: 50px;
-    background-image: radial-gradient(circle, white, transparent);
-    border: 1px solid transparent;
-}
-
-#baixo {
     width: 60vw;
-    margin: auto;
-    margin-top: 50px;
     background-image: radial-gradient(circle, white, transparent);
     border: 1px solid transparent;
 }
 
 main {
     position: relative;
+    margin: auto;
+    height: 350px;
     background-color: yellow;
     width: 80vw;
-    height: 350px;
-    margin: auto;
 }
 
 main > iframe {
@@ -54,6 +46,14 @@ main > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+#baixo {
+    margin: auto;
+    margin-top: 50px;
+    width: 60vw;
+    background-image: radial-gradient(circle, white, transparent);
+    border: 1px solid transparent;
 }
 
 img {
@@ -66,14 +66,14 @@ img {
 
 span p {
     color: transparent;
-    font: normal 300 1.5em var(--fonte1);
     margin-bottom: 50px;
+    font: normal 300 1.5em var(--fonte1);
 }
 
 img:hover {
     background-color: black;
     outline: solid 10px black;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
 span:hover p {
@@ -84,15 +84,15 @@ span:hover p {
 #tabela > h2 {
     background-color: orangered;
     color: white;
-    font: normal 500 1.1em var(--fonte1);
     width: 80vw;
     margin: auto;
+    font: normal 500 1.1em var(--fonte1);
     padding: 7px 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-#tabela_lista {
+#lista_tabela {
     background-color: yellow;
     width: 80vw;
     margin: auto;
@@ -113,7 +113,7 @@ li {
 footer {
     background-color: black;
     margin-top: 50px;
-    padding: 50px 0px 20px 0px;
+    padding: 50px 0px;
 }
 
 footer > h2 {
@@ -143,27 +143,22 @@ div:hover {
 }
 
 div:active {
-    background-color: white;
     outline: solid 0px white;
+    background-color: white;
     transition-duration: 0.1s;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 #meu_endereco {
     margin-top: 50px;
 }
 
-#meu_endereco > p {
-    margin-bottom: 20px;
+#meu_endereco p {
+    color: white;
 }
 
-#meu_endereco p {
+#meu_endereco > p {
+    margin-top: 20px;
     font: normal 300 1em var(--fonte1);
-    color: white;
 }
 
 #linkedin {
@@ -188,12 +183,17 @@ a {
 }
 
 #linkedin:active {
-    outline: solid 0px #043261;
-    background-color: #043261;
+    outline: solid 0px #063b70;
+    background-color: #063b70;
     transition-duration: 0.1s;
 }
 
 #github:active {
     outline: solid 0px white;
     transition-duration: 0.1s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
