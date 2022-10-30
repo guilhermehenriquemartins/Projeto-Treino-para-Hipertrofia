@@ -7,11 +7,14 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     --tituloprincipal: 'Principal', sans-serif;
     --paragrafo: 'Montserrat', sans-serif;
+    --tabela1: 'Viga', sans-serif;
 }
 
 * {
@@ -92,6 +95,7 @@ main {
     min-width: 250px;
     margin: auto;
     margin-bottom: 10px;
+    padding-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -288,4 +292,78 @@ footer {
 #bloco {
     text-decoration: none;
     width: 100%;
+}
+
+aside {
+    margin-top: 20px;
+    background-color: #2B2B2B;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+aside h2 {
+    font: normal 500 2.2em var(--paragrafo);
+    text-transform: uppercase;
+    color: white;
+}
+
+aside p {
+    font: normal 300 1em var(--paragrafo);
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    line-height: 25px;
+}
+
+#destacado {
+    color: yellow;
+}
+
+table {
+    margin: auto;
+    background-color: transparent;
+    color: #D5D5D6;
+    border-collapse: collapse;
+    width: 85vw;
+    height: 500px;
+    margin-top: 50px;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+th {
+    padding: 10px 30px;
+}
+
+thead > tr {
+    font-size: 1.2em;
+}
+
+thead > tr > th {
+    font-weight: bold;
+    font-family: var(--tabela1);
+    color: white;
+}
+
+tr > th {
+    font: normal 400 .9em var(--paragrafo);
+    height: 30px;
+    width: 50px;
+}
+
+tbody > tr {
+    font-family: var(--paragrafo);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#maior {
+    width: 800px;
+}
+
+#especial {
+    background-color: red;
 }
