@@ -42,7 +42,6 @@ main > iframe {
 }
 
 footer {
-    margin-top: 53px;
     padding: 50px;
     background-color: black;
     color: white;
@@ -138,4 +137,74 @@ ol {
     list-style-position: inside;
     text-align: justify;
     margin-left: 20px;
+}
+
+#tabela2 {
+    margin-top: 50px;
+    background-color: #2B2B2B;
+    padding: 50px;
+}
+
+table {
+    margin: auto;
+    width: 80vw;
+    border-collapse: collapse;
+}
+
+caption {
+    font: normal 700 1em var(--fonte1);
+    text-transform: uppercase;
+    color: white;
+    background-color: #252525;
+    padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#destaque2 {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+th {
+    font: normal 600 .8em var(--fonte1);
+    height: 70px;
+    width: 50px;
+    color: white;
+}
+
+td {
+    font: normal 500 .9em var(--fonte1);
+    height: 50px;
+    color: #D0D5D6;
+    color: black;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+.pontual {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.pontual2 {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.progresso {
+    font: normal 500 .8em var(--fonte1);
+    color: yellowgreen;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #252525;
+}
+
+thead > tr {
+    background-color: #252525;
 }
