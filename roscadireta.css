@@ -96,7 +96,6 @@ li {
 
 footer {
     background-color: black;
-    margin-top: 50px;
     padding: 50px 0px;
 }
 
@@ -137,4 +136,114 @@ div:active {
 
 a {
     text-decoration: none;
+}
+
+#tabela2 {
+    background-color: #2B2B2B;
+    margin-top: 50px;
+    padding: 50px 0px;
+    color: white;
+}
+
+table {
+    margin: auto;
+    width: 80vw;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #252525;
+    padding: 30px;
+    font: normal 700 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+#destaque2 {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+thead > tr {
+    background-color: #252525;
+    height: 70px;
+}
+
+thead th {
+    font: normal 600 .8em var(--fonte1);
+    width: 80px;
+    padding: 2px;
+}
+
+tbody th {
+    font: normal 600 .8em var(--fonte1);
+    height: 70px;
+}
+
+tbody td {
+    font: normal 500 .9em var(--fonte1);
+    color: black;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+tfoot th {
+    font: normal 600 1em var(--fonte1);
+    background-color: #252525;
+    height: 100px;
+}
+
+tfoot td {
+    background-color: #252525;
+    font: normal 400 .9em var(--fonte1);
+    padding: 5px;
+}
+
+#amarelo {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#verde {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#acrescimo {
+    color: yellowgreen;
+    font-size: .8em;
+}
+
+#resultado_tabela2 {
+    position: relative;
+    background-color: #252525;
+    width: 80vw;
+    height: 80px;
+    margin: auto;
+}
+
+#resultado_tabela2 div {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    font: normal 500 .8em var(--fonte1);
+    padding: 20px;
+}
+
+#titulo {
+    left: 0%;
+    width: 45%;
+    height: 40%;
+}
+
+#resultado {
+    left: 52%;
+    width: 40%;
+}
+
+#resultado_tabela2 div:hover {
+    outline: solid 0px transparent;
 }
