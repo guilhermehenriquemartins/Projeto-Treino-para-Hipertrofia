@@ -147,6 +147,7 @@ a {
 table {
     margin: auto;
     width: 80vw;
+    border-collapse: collapse;
 }
 
 caption {
@@ -169,4 +170,42 @@ thead > tr {
 thead th {
     width: 100px;
     font: normal 600 .8em var(--fonte1);
+}
+
+tbody tr {
+    height: 60px;
+}
+
+tbody th {
+    font: normal 600 .8em var(--fonte1);
+}
+
+tbody td {
+    font: normal 500 .9em var(--fonte1);
+    color: black;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #252525;
+}
+
+.amarelo {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.verde {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.acrescimo {
+    color: yellowgreen;
+    font-size: .8em;
 }
