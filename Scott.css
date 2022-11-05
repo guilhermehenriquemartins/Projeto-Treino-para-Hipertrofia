@@ -80,3 +80,137 @@ img:hover {
     color: white;
     transition-duration: 3s;
 }
+
+#tabela1 h2 {
+    background-color: orangered;
+    width: 80vw;
+    margin: auto;
+    font: normal 500 1.1em var(--fonte1);
+    color: white;
+    padding: 7px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#lista_tabela1 {
+    background-color: yellow;
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+#lista_tabela1 > ol {
+    list-style-position: inside;
+}
+
+#lista_tabela1 > ol > li {
+    text-align: justify;
+    margin-left: 20px;
+    font: normal 500 .9em var(--fonte1);
+    line-height: 30px;
+}
+
+#tabela2 {
+    background-color: #2B2B2B;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+#tabela2 > table {
+    color: white;
+    margin: auto;
+    width: 85vw;
+    border-collapse: collapse;
+}
+
+#tabela2 > table > caption {
+    background-color: #252525;
+    padding: 30px 0px;
+    font: normal 700 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+#destaque2 {
+    color: yellow;
+    font-size: 1.6em;
+}
+
+#tabela2 > table > thead > tr {
+    background-color: #252525;
+    height: 70px;
+}
+
+#tabela2 > table > thead > tr > th {
+    font: normal 600 .8em var(--fonte1);
+    width: 100px;
+}
+
+#tabela2 > table > tbody > tr {
+    height: 70px;
+}
+
+#tabela2 > table > tbody > tr > th {
+    font: normal 600 .8em var(--fonte1);
+}
+
+#tabela2 > table > tbody > tr > td {
+    font: normal 500 .9em var(--fonte1);
+    color: black;
+}
+
+#tabela2 > table > tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+#tabela2 > table > tbody > tr:nth-child(even) {
+    background-color: #252525;
+}
+
+.amarelo {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.verde {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.acrescimo {
+    color: yellowgreen;
+    font-size: .8em;
+}
+
+#tabela3 {
+    background-color: #252525;
+    padding: 50px 0px;
+}
+
+#tabela3 > h2 {
+    color: white;
+    font: normal 700 1.5em var(--fonte1);
+    text-transform: uppercase;
+}
+
+#tabela3 > table {
+    margin: auto;
+    margin-top: 20px;
+    width: 85vw;
+}
+
+#tabela3 > table > thead > tr > th {
+    background-color: yellow;
+    padding: 10px 0px;
+    font: normal 600 1em var(--fonte1);
+    text-transform: uppercase;
+    color: #252525;
+}
+
+#tabela3 > table > tbody > tr > td {
+    background-color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
