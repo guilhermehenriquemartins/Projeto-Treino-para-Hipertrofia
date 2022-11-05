@@ -112,7 +112,6 @@ li {
 
 footer {
     background-color: black;
-    margin-top: 50px;
     padding: 50px 0px;
 }
 
@@ -182,4 +181,77 @@ div:active {
 a {
     text-decoration: none;
     color: white;
+}
+
+#tabela2 {
+    background-color: #2B2B2B;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+table {
+    margin: auto;
+    color: white;
+    width: 85vw;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #252525;
+    padding: 30px 0px;
+    font: normal 700 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+#destaque2 {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+thead tr {
+    background-color: #252525;
+    height: 70px;
+}
+
+thead th {
+    width: 100px;
+    font: normal 600 .8em var(--fonte1);
+}
+
+tbody > tr {
+    height: 70px;
+}
+
+tbody th {
+    font: normal 600 .8em var(--fonte1);
+}
+
+tbody td {
+    font: normal 500 .9em var(--fonte1);
+    color: black;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #252525;
+}
+
+.amarelo {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.verde {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.acrescimo {
+    color: yellowgreen;
+    font-size: .8em;
 }
