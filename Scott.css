@@ -198,6 +198,7 @@ img:hover {
     margin: auto;
     margin-top: 20px;
     width: 85vw;
+    border-collapse: collapse;
 }
 
 #tabela3 > table > thead > tr > th {
@@ -210,7 +211,69 @@ img:hover {
 
 #tabela3 > table > tbody > tr > td {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid white;
     width: 150px;
     height: 150px;
+}
+
+#RoscaDireta {
+    position: relative;
+    background: black url('imagens/Rosca\ Direta\ colorido.jpg') center top no-repeat;
+    background-size: cover;
+    font: normal 600 1.3em var(--fonte1);
+}
+
+#RoscaDireta a {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    top: 0%;
+    left: 0;
+    padding: 65px 0px;
+    width: 100%;
+    text-decoration: none;
+}
+
+#RoscaDireta:hover {
+    outline: solid 5px black;
+    width: 155px;
+    height: 155px;
+    transition-duration: 0.3s;
+}
+
+#RoscaDireta:hover a {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    transition-duration: 1s;
+}
+
+#Corda {
+    position: relative;
+    background: black url('imagens/corda\ colorido.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+#Corda a {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    font: normal 600 1.3em var(--fonte1);
+    padding: 138px 0px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#Corda:hover {
+    width: 160px;
+    height: 160px;
+    outline: solid 5px black;
+    transition-duration: 0.3s;
+}
+
+#Corda:hover a {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    transition-duration: 1s;
 }
