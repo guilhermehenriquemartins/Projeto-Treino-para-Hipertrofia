@@ -195,6 +195,7 @@ img:hover {
 }
 
 #tabela3 > table {
+    position: relative;
     margin: auto;
     margin-top: 20px;
     width: 85vw;
@@ -411,8 +412,8 @@ img:hover {
 
 #RoscaConcentrada a {
     position: absolute;
-    color: yellow;
-    background-color: black;
+    color: transparent;
+    background-color: transparent;
     font: normal 600 1.3em var(--fonte1);
     text-decoration: none;
     top: 0;
@@ -421,4 +422,269 @@ img:hover {
     height: 50%;
     padding-top: 50px;
     padding-bottom: 25px;
+}
+
+#RoscaConcentrada:hover {
+    width: 155px;
+    height: 155px;
+    outline: solid 5px yellow;
+    transition-duration: 0.3s;
+}
+
+#RoscaConcentrada:hover a {
+    padding-bottom: 28px;
+}
+
+#RoscaConcentrada:hover a {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    transition-duration: 1s;
+}
+
+#Frances {
+    position: relative;
+    background: black url('imagens/frances.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+#Frances a {
+    position: absolute;
+    color: transparent;
+    font: normal 600 1.3em var(--fonte1);
+    text-decoration: none;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 63px 0px;
+}
+
+#Frances:hover {
+    width: 155px;
+    height: 155px;
+    outline: solid 5px yellow;
+    transition-duration: 0.3s;
+}
+
+#Frances:hover > a {
+    padding: 65px 0px;
+    transition-duration: 0s;
+}
+
+#Frances:hover a {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.70);
+    transition-duration: 1s;
+}
+
+#RoscaScott {
+    position: relative;
+    background: black url('imagens/Rosca\ Scott.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+#RoscaScott a {
+    position: absolute;
+    color: transparent;
+    font: normal 600 1.3em var(--fonte1);
+    text-decoration: none;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 62px 0px;
+}
+
+#RoscaScott:hover {
+    width: 155px;
+    height: 155px;
+    outline: solid 5px yellow;
+    transition-duration: 0.3s;
+}
+
+#RoscaScott:hover a {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 65px 0px;
+    transition-duration: 1s;
+}
+
+#TestaW {
+    position: relative;
+    background: black url('imagens/testa\ w.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+#TestaW a {
+    position: absolute;
+    color: transparent;
+    font: normal 600 1.3em var(--fonte1);
+    text-decoration: none;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 62px 0px;
+}
+
+#TestaW:hover {
+    width: 155px;
+    height: 155px;
+    outline: solid 5px yellow;
+    transition-duration: 0.3s;
+}
+
+#TestaW:hover a {
+    padding: 65px 0px;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    transition-duration: 1s;
+}
+
+#RoscaPunho {
+    position: relative;
+    background: black url('imagens/rosca\ punho.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+#RoscaPunho a {
+    position: absolute;
+    color: transparent;
+    font: normal 600 1.3em var(--fonte1);
+    text-decoration: none;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 62px 0px;
+}
+
+#RoscaPunho:hover {
+    width: 155px;
+    height: 155px;
+    outline: solid 5px yellow;
+    transition-duration: 0.3s;
+}
+
+#RoscaPunho:hover a {
+    padding: 65px 0px;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    transition-duration: 1s;
+}
+
+#Coice {
+    position: relative;
+    background: black url('imagens/coice.jpg') center bottom no-repeat;
+    background-size: cover;
+}
+
+#Coice a {
+    position: absolute;
+    color: transparent;
+    font: normal 600 1.5em var(--fonte1);
+    text-decoration: none;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 62px 0px;
+}
+
+#Coice:hover {
+    width: 155px;
+    height: 155px;
+    outline: solid 5px yellow;
+    transition-duration: 0.3s;
+}
+
+#Coice:hover a {
+    padding: 63px 0px;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.60);
+    transition-duration: 1s;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 0px;
+}
+
+footer h2 {
+    color: yellow;
+    font: normal 700 1.5em var(--fonte1);
+    text-transform: uppercase;
+}
+
+article {
+    margin-top: 20px;
+}
+
+div {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    width: 250px;
+    margin: 5px;
+    padding: 30px 5px;
+    font: normal 600 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+div:hover {
+    outline: solid 5px yellow;
+    transition-duration: 0.2s;
+}
+
+div:active {
+    outline: 0px solid white;
+    background-color: white;
+    transition-duration: 0.1s;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#meu_endereco {
+    margin-top: 50px;
+    color: white;
+    font: normal 300 1em var(--fonte1);
+}
+
+#links {
+    margin-top: 20px;
+}
+
+#linkedin {
+    background-color: #0A66C2;
+    padding: 5px 7px;
+}
+
+#github {
+    color: black;
+    background-color: white;
+    padding: 5px 7px;
+}
+
+#linkedin:hover {
+    outline: solid 5px #0A66C2;
+    transition-duration: 0.2s;
+}
+
+#linkedin:active {
+    outline: 2px solid #05407a;
+    background-color: #05407a;
+    transition-duration: 0.1s;
+}
+
+#github:hover {
+    outline: solid 5px white;
+    transition-duration: 0.2s;
+}
+
+#github:active {
+    outline: 2px solid white;
+    transition-duration: 0.1s;
 }
