@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fonte1: 'Montserrat', sans-serif;
+}
+
+* {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black url('imagens/biceps\ 2.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+body > header {
+    padding: 50px 0px;
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+
+body > header > h1 {
+    color: yellow;
+    font: normal 700 2em var(--fonte1);
+}
+
+#cima {
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 50px;
+    background-image: radial-gradient(circle, white, transparent);
+    border: 1px solid transparent;
+}
+
+main {
+    position: relative;
+    background-color: yellow;
+    width: 80vw;
+    height: 350px;
+    margin: auto;
+}
+
+main > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#baixo {
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+    background-image: radial-gradient(circle, white, transparent);
+    border: 1px solid transparent;
+}
+
+img {
+    width: 10vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+img:hover {
+    background-color: black;
+    outline: solid 10px black;
+    transition-duration: 0.3s;
+}
+
+img:active {
+    outline: 0px solid transparent;
+    width: 11vw;
+    transition-duration: 0.2s;
+}
+
+span p {
+    margin-bottom: 50px;
+    color: transparent;
+    font: normal 300 1.5em var(--fonte1);
+}
+
+span:hover p {
+    color: white;
+    transition-duration: 3s;
+}
+
+#tabela1 > h2 {
+    background-color: orangered;
+    width: 80vw;
+    margin: auto;
+    padding: 7px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font: normal 500 1.1em var(--fonte1);
+    color: white;
+}
+
+aside {
+    background-color: yellow;
+    width: 80vw;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+li {
+    text-align: justify;
+    margin-left: 20px;
+    font: normal 500 .9em var(--fonte1);
+    line-height: 30px;
+}
+
+#tabela2 {
+    background-color: #2B2B2B;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+#tabela2 > table {
+    margin: auto;
+    color: white;
+    width: 85vw;
+    border-collapse: collapse;
+}
+
+#tabela2 > table > caption {
+    background-color: #252525;
+    padding: 30px 0px;
+    font: normal 700 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+#destaque2 {
+    color: yellow;
+    font-size: 1.8em;
+}
+
+thead > tr {
+    height: 60px;
+    background-color: #252525;
+}
+
+thead > tr > th {
+    font: normal 600 .8em var(--fonte1);
+    width: 100px;
+}
+
+tbody > tr {
+    height: 70px;
+}
+
+tbody > tr > th {
+    font: normal 600 .8em var(--fonte1);
+}
+
+tbody > tr > td {
+    font: normal 500 .9em var(--fonte1);
+    color: black;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #303033;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: #252525;
+}
+
+.amarelo {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.verde {
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.acrescimo {
+    color: yellowgreen;
+    font-size: .8em;
+}
+
+#tabela3 {
+    background-color: #252525;
+    padding: 50px 0px;
+}
+
+#tabela3 > table {
+    width: 85vw;
+    margin: auto;
+}
+
+#tabela3 > table > thead > tr > th {
+    border: 1px solid black;
+    background-color: yellow;
+}
