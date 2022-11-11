@@ -198,11 +198,112 @@ tbody > tr:nth-child(even) {
 }
 
 #tabela3 > table {
+    position: relative;
     width: 85vw;
     margin: auto;
+    border-collapse: collapse;
+}
+
+#tabela3 > table > thead {
+    position: sticky;
+    top: 0;
 }
 
 #tabela3 > table > thead > tr > th {
-    border: 1px solid black;
+    border: 1px solid rgb(212, 212, 0);
     background-color: yellow;
+}
+
+#tabela3 > table > tbody > tr > th {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+#tabela3 > table > tbody > tr > td {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 0px;
+}
+
+footer > h2 {
+    color: yellow;
+    font: normal 700 1.5em var(--fonte1);
+    text-transform: uppercase;
+}
+
+footer div {
+    display: inline-block;
+    background-color: yellow;
+    width: 30vw;
+    margin: 5px;
+    padding: 30px 5px;
+    font: normal 600 1em var(--fonte1);
+    text-transform: uppercase;
+}
+
+footer div:hover {
+    outline: solid 5px yellow;
+    transition-duration: 0.2s;
+}
+
+footer div:active {
+    background-color: white;
+    outline: solid 0px white;
+    transition-duration: 0.1s;
+}
+
+footer article {
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#meu_endereco {
+    margin-top: 50px;
+    color: white;
+    font: normal 400 1em var(--fonte1);
+    line-height: 40px;
+}
+
+#linkedin {
+    background-color: #0A66C2;
+    padding: 5px 7px;
+}
+
+#linkedin:hover {
+    outline: solid 5px #0A66C2;
+    transition-duration: 0.2s;
+}
+
+#linkedin:active {
+    outline: solid 0px #084b8f;
+    background-color: #084b8f;
+    transition-duration: 0.1s;
+}
+
+#github {
+    background-color: white;
+    color: black;
+    padding: 5px 7px;
+}
+
+#github:hover {
+    outline: solid 5px white;
+    transition-duration: 0.2s;
+}
+
+#github:active {
+    outline: solid 0px white;
+    transition-duration: 0.1s;
+}
+
+#meu_endereco a {
+    color: white;
 }
